@@ -28,6 +28,13 @@ img {
     
 }
 
+a {
+  color: rgb(81, 81, 233);
+}
+
+a:hover {
+  color: rgb(76, 76, 76);
+}
 
 h2 {
     color: black;
@@ -64,10 +71,14 @@ hr {
   #row1 {
     filter: drop-shadow(0px 0px 10px #000000);
     display: flex;
+    background-color:rgb(92, 92, 92);
     align-items: center;
-    background-color: rgb(91, 91, 91);
     border-radius: 10px;
     
+  }
+
+  #row1:hover {
+    background-image:url('/images/trippy.gif');
   }
 
   #profile {
