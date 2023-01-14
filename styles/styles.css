@@ -15,7 +15,7 @@ header {
     color: white;
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   
 img {
@@ -45,11 +45,13 @@ h2 {
     padding: 20px;
   }
   
-  footer {
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
+footer {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 
 main {
@@ -74,12 +76,10 @@ hr {
     background-color:rgb(92, 92, 92);
     align-items: center;
     border-radius: 10px;
+    grid-column: 2;
     
   }
 
-  #row1:hover {
-    background-image:url('/images/trippy.gif');
-  }
 
   #profile {
     grid-column: 1;
@@ -92,6 +92,7 @@ hr {
   }
 
   #row2 {
+    grid-column: 2;
     margin: 10px;
     text-align: left;
     display: flex;
@@ -109,6 +110,7 @@ hr {
     margin: 0%;
     background-color:rgb(92, 92, 92);
     border-radius: 10px;
+    grid-column: 2;
   }
 
   #endbody {
