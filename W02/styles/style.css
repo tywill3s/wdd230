@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
@@ -12,49 +13,59 @@ h2 {
 
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 50px;
+p {
+    padding: 10px;
 }
 
-#title {
+header {
     background-color: rgb(146, 146, 152);
     text-align: center;
     color: white;
     padding: 10px;
     border-radius: 10px;
-
 }
 
+main {
+    display: grid;
+    grid-template-columns: 425px 1fr 1fr;
+    padding-bottom: 50px;
+}
+
+
 .column {
-    background-color: orange;
-    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
     border-color: black;
     border: solid;
     border-radius: 10px;
     padding: 10px;
 }
 
-.type {
-    font-size: x-large;
-}
-
-.title {
-    font-size:large;
-    width: 100%;
-}
-
-.website {
-    font-size: large;
-
-}
-
 .image {
     text-align: center;
 }
 
+img {
+    border-radius: 30px;
+    filter: drop-shadow(0px 0px 10px #000000);
+    text-align: center;
+    padding: 20px;
+}
 
+footer {
+    color: rgb(119, 119, 119);
+    text-align: center;
+}
+
+section {
+    border:3px;
+    border-color: black;
+    border-style: outset;
+    border-radius: 20px;
+}
+section h3 {
+    background-color: blue;
+}
 
 
 
@@ -64,8 +75,10 @@ main {
 @media (max-width: 600px) {
     main {
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
 
     }
+
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
@@ -73,11 +86,13 @@ main {
         grid-template-columns: 1fr 1fr;
 
     }
+
 }
   
 @media (min-width: 1200px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
+
 
     }
 }
