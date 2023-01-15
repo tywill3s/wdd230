@@ -27,7 +27,7 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 425px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 50px;
 }
 
@@ -55,44 +55,4 @@ img {
 footer {
     color: rgb(119, 119, 119);
     text-align: center;
-}
-
-section {
-    border:3px;
-    border-color: black;
-    border-style: outset;
-    border-radius: 20px;
-}
-section h3 {
-    background-color: blue;
-}
-
-
-
-
-
-
-@media (max-width: 600px) {
-    main {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-
-    }
-
-}
-
-@media (min-width: 600px) and (max-width: 1200px) {
-    main {
-        grid-template-columns: 1fr 1fr;
-
-    }
-
-}
-  
-@media (min-width: 1200px) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-
-
-    }
 }
