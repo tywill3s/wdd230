@@ -53,6 +53,8 @@ img {
 }
 
 footer {
-    color: rgb(119, 119, 119);
+    color: rgb(208, 208, 208);
     text-align: center;
+    background-color: rgb(146, 146, 152);
+    border-radius: 10px;
 }
