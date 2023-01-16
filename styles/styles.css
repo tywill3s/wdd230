@@ -131,7 +131,7 @@ hr {
   }
 
   #notice {
-    color: grey;
+    color: rgb(55, 55, 55);
     font-style: italic;
     margin-top: 0px;
     margin-bottom: 30px;
