@@ -32,6 +32,7 @@
 	header {
 		position: sticky;
 		font-family: arial;
+		align-items: baseline;
 	}
 
 	header div.banner {
@@ -91,26 +92,17 @@
 		color: yellow;
 	}
 	main {
-		overflow: hidden;
-		background-color: var(--secondary-bg);
-		color: var(--secondary-fg);
-		padding: 1em 1em;
-		display: flex;
-		flex-direction: column;
-		gap: 20px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		background-color: aliceblue;
 	}
+	
 	footer {
 		text-align: center;
 		padding: 50px;
 	}
-	
-	footer div.contact-info {
-		text-align: center;
-		border-radius: 1em;
-		border: 2px solid rgba(0,0,0, .03);
-		padding: 10px;
-	}
-	footer div.author {
+
+	footer img {
 		text-align: center;
 	}
 	
