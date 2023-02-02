@@ -11,7 +11,6 @@ function generate() {
         li.innerHTML = value;
         delButton.textContent = "❌";
         li.append(delButton);
-        list.appendChild(li);
         console.log(li)
     }
 }
