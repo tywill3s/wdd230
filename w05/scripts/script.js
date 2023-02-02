@@ -1,6 +1,6 @@
 const input = document.getElementById("favchap");
 const button = document.getElementById("button");
-const list = document.getElementById("list");
+const list = document.getElementById('list');
 console.log(list);
 
 function generate() {
@@ -11,7 +11,7 @@ function generate() {
         li.innerHTML = value;
         delButton.textContent = "❌";
         li.append(delButton);
-        list.append(li);
+        list.appendChild(li);
         console.log(li)
     }
 }
