@@ -17,7 +17,7 @@ function generate() {
         li.append(delButton);
         console.log(li);
         list.appendChild(li);
-        input.value.textContent = "";
+        input.value = "";
         value = "";
     }
 }
