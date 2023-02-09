@@ -1,38 +1,42 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official webpage for the Eagle Mountain Chamber of Commerce">
+    <meta name="description"
+        content="The Eagle Mountain Chamber of Commmerce">
     <title>Eagle Mountain Chamber of Commerce</title>
-    <link href="images/logo.svg" rel="icon" type="image/icon">
-    <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/large.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Oswald:wght@500&display=swap" rel="stylesheet">  
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <div class="banner">
-            <img src="images/eagle-logo.png" width=100 height=100 alt="Eagle Mountain chamber of commerce logo">
+        <div id="banner">
+            <img src="images/eagle-logo.png" width=100 height=100 alt="Fremont chamber of commerce logo">
             <h1>Eagle Mountain Chamber of Commerce</h1>
-            <div id="currentDate"></div>
+            <p id="current-date">date</p>
         </div>
         <nav>
             <div id="burger-button">
                 <img src="images/hamburger.png" id="burger-open" width=30 height=30 alt="menu button">
                 <img src="images/close.svg" id="burger-close" class="hidden" width=30 height=30 alt="menu button">
             </div>
-            <div class="hidden burger-flex" id="burger-nav">
+            <div id="menu-mask">
+                &nbsp;
+            </div>
+            <div id="burger-menu" class="hidden">
                 <ul>
                     <li>
-                        <a href="#">LINK1</a>
+                        <a href="#">HOME</a>
                     </li>
                     <li>
                         <a href="#">LINK2</a>
@@ -44,26 +48,36 @@
                         <a href="#">LINK4</a>
                     </li>
                 </ul>
-                <ul class="social">
+                <ul>
                     <li>
-                        <a href="https://www.instagram.com/eaglemountaincity/" target="_blank"><img src="images/instagram.png" width=40 height=40 alt="Instagram link"></a>
+                        <a href="https://www.instagram.com/eaglemountaincity/" target="_blank"><img
+                                src="images/instagram.png" width=30 height=30 alt="Instagram link"></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/thepointchamber?lang=en" target="_blank"><img src="images/twitter-icon.svg" width=40 height=40 alt="Twitter link"></a>
+                        <a href="https://twitter.com/thepointchamber?lang=en" target="_blank"><img src="images/twitter-icon.svg"
+                                width=30 height=30 alt="Twitter link"></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div class="hero">Hero</div>
-        <div class="event">Event</div>
-        <div class="weather">Weather</div>
-        <div class="news">News Release</div>
+        <div id="hero">
+        </div>
+        <div id="event">
+        </div>
+        <div id="weather">
+        </div>
+        <div id="news">
     </main>
     <footer>
-        <img src="images/eagle-logo.png" width="100" height="100" alt="Eagle Mountain chamber of commerce logo">
-        <div><strong>Tyler Willes - WDD 230 Project</strong><br><span id="last-update"></span></div>
+        <img id="footer-logo" src="images/eagle-logo.png" width="50" height="50" alt="Fremont chamber of commerce logo">
+        <div class="contact-info"><a href="https://www.google.com/maps/place/Eagle+Mountain+Chamber+of+Commerce/@40.3070003,-112.0114244,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7dc64390d10f:0xbf3d595934008824!8m2!3d40.3070761!4d-112.0115661" target="_blank">Map</a>
+            | &copy;<span id="year-field"></span> EM Chamber | <strong>Tyler Willes</strong> | WDD 230 Project | Last Updated: <span id="last-update-field"></span>
+        </div>
     </footer>
     <script src="scripts/script.js"></script>
+
+</body>
+
 </html>
