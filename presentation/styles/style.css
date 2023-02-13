@@ -11,6 +11,8 @@ h1 {
 }
 
 .image {
-    margin: 200px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
     align-items: center;
 }
