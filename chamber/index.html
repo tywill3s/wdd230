@@ -21,7 +21,7 @@
 <body>
     <header>
         <div id="banner">
-            <img src="images/eagle-logo.png" width="100" alt="Fremont chamber of commerce logo">
+            <img src="images/eagle-logo.webp" alt="Fremont chamber of commerce logo">
             <h1>Eagle Mountain Chamber of Commerce</h1>
             <p id="current-date">date</p>
         </div>
@@ -72,6 +72,10 @@
         </div>
         <div id="weather">
             <h2>Weather</h2>
+            <p><span id="temperature">49</span> F°</p><br>
+            <span id="sky">3.1</span><br>
+            <hr>
+            <p><span id="windchill"></span> F°</p>
         </div>
         <div id="news">
             <div id="newsdiv">
@@ -87,12 +91,14 @@
         </div>
     </main>
     <footer>
-        <img id="footer-logo" src="images/eagle-logo.png" width="50"alt="Fremont chamber of commerce logo">
+        <img id="footer-logo" src="images/eagle-logo.webp" alt="Fremont chamber of commerce logo">
         <div class="contact-info"><a href="https://www.google.com/maps/place/Eagle+Mountain+Chamber+of+Commerce/@40.3070003,-112.0114244,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7dc64390d10f:0xbf3d595934008824!8m2!3d40.3070761!4d-112.0115661" target="_blank">Map</a>
             | &copy;<span id="year-field"></span> EM Chamber | <strong>Tyler Willes</strong> | WDD 230 Project | Last Updated: <span id="last-update-field"></span>
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+
 
 </body>
 

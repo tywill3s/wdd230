@@ -165,6 +165,8 @@ main {
     background-color: aliceblue;
     font-size: large;
 }
+
+
 #event button {
     border-radius: 10px;
     padding: 10px;
@@ -189,6 +191,11 @@ main {
 #weather {
     color: white;
     background-image: url("https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=744&q=80");
+}
+
+#temperature {
+    font-size: x-large;
+    font-weight: bold;
 }
 
 #news {
