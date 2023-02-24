@@ -134,8 +134,6 @@ main {
     background-color: var(--secondary-bg);
     color: var(--secondary-fg);
     padding: 1em 1em;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
     z-index: 0;
 }

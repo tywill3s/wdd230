@@ -95,4 +95,9 @@
         grid-column: 2/3;
         box-sizing: border-box;
     }
+
+    .pic {
+        text-align: center;
+        grid-column: 2;
+    }
 }

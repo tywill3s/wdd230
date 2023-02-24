@@ -43,7 +43,7 @@
 
 
     main {
-        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-columns: 1fr 4fr 1fr;
     }
     #hero {
         grid-column: 2/3;
@@ -94,6 +94,11 @@
     #spotlights > * {
         aspect-ratio: 1/1;
         align-self: center;
+    }
+
+    .pic {
+        text-align: center;
+        grid-column: 2;
     }
 
 }
