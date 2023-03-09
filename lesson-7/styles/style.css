@@ -1,0 +1,23 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    text-align: center;
+    width:100%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+}
+
+.sun {
+    grid-column: 2;
+}
+
+footer{
+    color: black;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
