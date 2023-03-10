@@ -16,10 +16,6 @@ if(lastVisit){
 
 localStorage.setItem('dates', JSON.stringify(dates));
 
-console.log(timeBetween)
-console.log(now.getTime())
-console.log(lastVisit)
-
 document.querySelector('#lastVisit').innerHTML += timeBetween;
 
 const div = document.createElement('div');
