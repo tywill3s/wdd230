@@ -100,4 +100,7 @@
         text-align: center;
         grid-column: 2;
     }
+    .pic:hover{
+        opacity: 90%;
+    }
 }

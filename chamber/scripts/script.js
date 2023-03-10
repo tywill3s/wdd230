@@ -50,3 +50,5 @@ if(dayOfTheWeek[day] == "Monday" | dayOfTheWeek[day] == "Tuesday") {
         alertBanner.remove();    
 });
 }
+
+
