@@ -16,9 +16,10 @@ if(lastVisit){
 
 localStorage.setItem('dates', JSON.stringify(dates));
 
-document.querySelector('#lastVisit').innerHTML += timeBetween;
+if (timeBetween == 0) {
+    document.querySelector('#lastVisit').innerHTML += "This is your first time on this page! Welcome.";
 
-const div = document.createElement('div');
-
-div.innerHTML = 'asdf';
-document.querySelector()
+} else {
+    document.querySelector('#lastVisit').innterHTML = "You last visited this site: ";
+    document.querySelector('#lastVisit').innerHTML += timeBetween += " days ago";
+}
