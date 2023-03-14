@@ -20,5 +20,5 @@ if (timeBetween == 0) {
     document.querySelector('#lastVisit').innerHTML += "This is your first time on this page! Welcome.";
 
 } else {
-    document.querySelector('#lastVisit').innterHTML = "You last visited this site: " += timeBetween += " days ago";
+    document.querySelector('#lastVisit').innterHTML += "You last visited this site: " += timeBetween += " days ago";
 }
