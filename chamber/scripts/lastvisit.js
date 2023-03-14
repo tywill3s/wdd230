@@ -17,8 +17,11 @@ if(lastVisit){
 localStorage.setItem('dates', JSON.stringify(dates));
 
 if (timeBetween == 0) {
+    console.log("TEST");
     document.querySelector('#lastVisit').innerHTML += "This is your first time on this page! Welcome.";
 
 } else {
-    document.querySelector('#lastVisit').innterHTML += "You last visited this site: " += timeBetween += " days ago";
+    console.log("TESTTTT");
+    document.querySelector('#lastVisit').innterHTML += "You last visited this site: ";
+    document.querySelector('#lastVisit').innterHTML += timeBetween += " days ago";
 }
