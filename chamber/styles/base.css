@@ -288,3 +288,7 @@ a:hover {
 div img{
     border-radius: 10px;
 }
+
+#lastVisit {
+    text-align: center;
+}
