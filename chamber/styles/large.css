@@ -92,23 +92,4 @@
         align-self: center;
     }
 
-    .pic {
-        text-align: center;
-    }
-    #test {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        grid-column: 2;
-        grid-row: 1;
-        background-color: rgb(172, 172, 172);
-        border-radius: 20px;
-    }
-    
-    .pic:hover{
-        opacity: 90%;
-    }
-
-
 }
