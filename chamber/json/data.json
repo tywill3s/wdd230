@@ -1,0 +1,81 @@
+[{
+      "name": "Acme Inc.",
+      "address": "123 Main St, Anytown USA",
+      "phone": "555-1234",
+      "website": "http://www.acme.com",
+      "icon": "images/acme.png",
+      "membership": "Gold Membership",
+      "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    },
+    {
+      "name": "Beta Corp",
+      "address": "456 Maple Ave, Anycity USA",
+      "phone": "555-5678",
+      "website": "http://www.beta.com",
+      "icon": "images/beta.png",
+      "membership": "Silver Membership",
+      "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    },
+    {
+      "name": "Gamma Industries",
+      "address": "789 Oak St, Anyville USA",
+      "phone": "555-9012",
+      "website": "http://www.gamma.com",
+      "icon": "images/gamma.png",
+      "membership": "Bronze Membership",
+      "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    },
+    {
+      "name": "Delta Enterprises",
+      "address": "246 Elm St, Anycity USA",
+      "phone": "555-3456",
+      "website": "http://www.delta.com",
+      "icon": "images/delta.png",
+      "membership": "NP Membership",
+      "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    },
+    {
+      "name": "Epsilon Ltd.",
+      "address": "135 Oak St, Anytown USA",
+      "phone": "555-7890",
+      "website": "http://www.epsilon.com",
+      "icon": "images/epsilon.png",
+      "membership": "Gold Membership",
+      "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    },
+    {
+      "name": "Zeta Corp",
+      "address": "246 Maple Ave, Anyville USA",
+      "phone": "555-1234",
+      "website": "http://www.zeta.com",
+      "icon": "images/zeta.png",
+      "membership": "Silver Membership",
+      "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    },
+    {
+      "name": "Eta Industries",
+      "address": "357 Oak St, Anytown USA",
+      "phone": "555-5678",
+      "website": "http://www.eta.com",
+      "icon": "images/eta.png",
+      "membership": "Bronze Membership",
+      "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    },
+    {
+    "name": "Theta Enterprises",
+    "address": "468 Elm St, Anytown USA",
+    "phone": "555-9012",
+    "website": "http://www.theta.com",
+    "icon": "images/theta.png",
+    "membership": "NP Membership",
+    "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    },
+    {
+    "name": "Iota Ltd.",
+    "address": "579 Maple Ave, Anyville USA",
+    "phone": "555-3456",
+    "website": "http://www.iota.com",
+    "icon": "images/iota.png",
+    "membership": "Gold Membership",
+    "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, arcu eget commodo commodo, risus velit viverra sapien, ut dignissim justo neque sed odio."
+    }]
