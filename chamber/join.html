@@ -36,13 +36,13 @@
             <div id="burger-menu" class="hidden">
                 <ul>
                     <li>
-                        <a href="index.html" style="color:rgb(232, 232, 141);">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="discover.html">Discover</a>
                     </li>
                     <li>
-                        <a href="join.html">Join Us</a>
+                        <a href="join.html" style="color:rgb(232, 232, 141)">Join Us</a>
                     </li>
                     <li>
                         <a href="#">LINK4</a>
@@ -62,41 +62,53 @@
         </nav>
     </header>
     <main>
-        <div id="hero">
-            <h1>Welcome to the Chamber</h1>
-            <button>Join Now</button>
-        </div>
-        <div id="event">
-            <h2>Chamber Party</h2>
-            <button>More Info</button>
-        </div>
-        <div id="weather">
-            <h2>Weather</h2>
-            <p><span id="temperature">40</span> F°</p><br>
-            <p><span id="sky">33</span>mph</p><br>
-            <hr>
-            <p><span id="windchill"></span> F°</p>
-        </div>
-        <div id="news">
-            <div id="newsdiv">
-                <h2>News</h2>
-                <p>Lorem ipsum dolor sit amet Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-        <div id="spotlights">
-            <h2>Spotlights</h2>
-        </div>
-        <div id="join">
-            <h2>Join Us</h2>
+        <h2 id="joinTitle">Please fill out your information below:</h2>
+        <div id="form">
+        <form method="get" action="thankyou.html">
+            <label for="first-name">First Name *</label>
+            <input type="text" name="first-name" id="first-name" required>
+          
+            <label for="last-name">Last Name *</label>
+            <input type="text" name="last-name" id="last-name" required>
+          
+            <label for="position-title">Business Position Title</label>
+            <input type="text" name="position-title" id="position-title" pattern="[A-Za-z\s\-]{7,}" title="Only letters, spaces, and hyphens allowed with a minimum of 7 characters">
+          
+            <label for="email">Email *</label>
+            <input type="email" name="email" id="email" required placeholder="e.g. john.doe@example.com">
+          
+            <label for="cell-phone">Cell Phone *</label>
+            <input type="tel" name="cell-phone" id="cell-phone" required>
+          
+            <label for="business-name">Business Name/Title *</label>
+            <input type="text" name="business-name" id="business-name" required>
+          
+            <label for="membership-level">Membership Level</label>
+            <select name="membership-level" id="membership-level">
+              <option value="np-membership">NP Membership</option>
+              <option value="bronze-membership">Bronze Membership</option>
+              <option value="silver-membership">Silver Membership</option>
+              <option value="gold-membership">Gold Membership</option>
+            </select>
+          
+            <label for="business-description">Business Description</label>
+            <textarea name="business-description" id="business-description"></textarea>
+          
+            <input type="hidden" name="form-loaded-at" value="<?php echo date('Y-m-d H:i:s'); ?>">
+          
+            <input type="submit" value="Submit Form">
+          </form>
         </div>
     </main>
     <footer>
+        <div id="lastVisit"> </div>
         <img id="footer-logo" src="images/eagle-logo.webp" alt="Fremont chamber of commerce logo">
         <div class="contact-info"><a href="https://www.google.com/maps/place/Eagle+Mountain+Chamber+of+Commerce/@40.3070003,-112.0114244,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7dc64390d10f:0xbf3d595934008824!8m2!3d40.3070761!4d-112.0115661" target="_blank">Map</a>
             | &copy;<span id="year-field"></span> EM Chamber | <strong>Tyler Willes</strong> | WDD 230 Project | Last Updated: <span id="last-update-field"></span>
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/lastvisit.js"></script>
     <script src="scripts/windchill.js"></script>
 
 
