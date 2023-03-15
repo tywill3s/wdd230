@@ -6,7 +6,7 @@
     --pop-color: rgb(166,99,23);
     --menu-bg: rgba(34, 52, 77, 0.9);
     --white-bump: rgba(255,255,255,.2);
-    --drop-shadows: rgba(0,0,0, .2);
+    --drop-shadows: rgba(54, 54, 54, 0.2);
     --body-font: 'Open Sans', sans-serif;
     --heading-font: 'Oswald', sans-serif; 
     --max-width: 90em; 
@@ -206,7 +206,6 @@ main {
     width: 300px;
     display: inline-block;
     padding: 10px;
-    backdrop-filter: var(--drop-shadows);
     
 }
 
