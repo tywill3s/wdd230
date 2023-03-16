@@ -43,18 +43,16 @@ header {
 }
 
 #banner {
+    display:flex;
 	text-align: center;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     font-family: var(--heading-font);
     border: 0px;
     margin: 0;
-    padding: 50px;
+    padding: 55px;
 }
 header > div > img {
-    width: 3em;
-    aspect-ratio: 1/1;
+    width: 1em;
     height: auto;
 }
 header > div > h1 {
@@ -237,9 +235,7 @@ footer div.contact-info {
     border: 2px solid rgba(0,0,0, .03);
     padding: 10px;
 }
-#footer-logo {
-    width: 3em;
-}
+
 
 #banner.menu-pinned {
     display: none;
@@ -257,12 +253,15 @@ footer div.contact-info {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    height: 1.2em;
+    height: 2em;
     background-color: rgba(255,255,255, .5);
     position: absolute;
     top: 0;
     width: 100%;
     border-radius: 4px 4px 0 0;
+    margin: 10px;
+    align-items: center;
+    color: black;
 }
 .alert > button {
     width: fit-content;
@@ -434,3 +433,7 @@ form {
     margin-top: 10px;
     padding: 20px;
   }
+
+  footer img {
+    height: 80px;
+}

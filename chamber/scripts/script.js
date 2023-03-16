@@ -38,9 +38,9 @@ const dayOfTheWeek = [
     "Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
 ];
 
-if(dayOfTheWeek[day] == "Monday" | dayOfTheWeek[day] == "Tuesday") {
+if(dayOfTheWeek[day] == "Monday" | dayOfTheWeek[day] == "Wednesday") {
     const alertBanner = document.createElement("div");
-    alertBanner.innerHTML = '<span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>';
+    alertBanner.innerHTML = '<span>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.!</span>';
     const deleteButton = document.createElement("button");
     deleteButton.innerHTML = '<img src="images/close.svg" alt="close alert" width="20" height="20">'
     alertBanner.appendChild(deleteButton);
