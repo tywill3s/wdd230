@@ -7,12 +7,15 @@ fetch(apiUrl)
   .then((response) => response.json())
   .then((data) => {
     const temperature = data.main.temp;
+    console.log(temperature);
     const condition = data.weather[0].description;
     const windSpeed = data.wind.speed;
     const windChill = calculateWindChill(temperature, windSpeed);
     const icon = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
 
-    // Use the data to update your webpage
+    var temp = document.getElementById('temperature').innerHTML = temperature;
+  
+
   })
   .catch((error) => {
     console.log(error);
