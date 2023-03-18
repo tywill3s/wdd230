@@ -437,3 +437,8 @@ form {
   footer img {
     height: 80px;
 }
+
+#contact {
+    text-align: center;
+    grid-column: 2;
+}
