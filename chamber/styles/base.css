@@ -213,6 +213,9 @@ main {
 #spotlights {
     color: white;
     background-image: url("https://images.unsplash.com/photo-1560195183-570e72bb6fd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 #join {
@@ -441,4 +444,10 @@ form {
 #contact {
     text-align: center;
     grid-column: 2;
+}
+
+#spotlight1, #spotlight2, #spotlight3 {
+    background-color: grey;
+    border-radius: 10px;
+    margin: 10px;
 }
