@@ -37,6 +37,7 @@ fetch(url)
       }
     });
 
+
     // Render the initial view
     data.forEach(company => {
       // Create list view item

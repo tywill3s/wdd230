@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="logo"><img src="images/logo.png" alt="Logo" width="100px"></div>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="fresh.html" style="text-decoration: underline;color:grey;">Fresh</a>
+		<a href="about.html">About Us</a>
+	</nav>
+    <section id="freshTitle">
+    <h1>Create Your Own Drink</h1>
+    <p>Fill out the following form to create your own drink combination, see nutritional information, and your order date</p>
+</section>
+    <div class="form-container">
+        <form id="order-form">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+      
+          <label for="fruit-1">Fruit 1:</label>
+          <select id="fruit-1" name="fruit-1" required>
+          </select>
+      
+          <label for="fruit-2">Fruit 2:</label>
+          <select id="fruit-2" name="fruit-2" required>
+          </select>
+      
+          <label for="fruit-3">Fruit 3:</label>
+          <select id="fruit-3" name="fruit-3" required>
+          </select>
+      
+          <label for="special-instructions">Special Instructions:</label>
+          <textarea id="special-instructions" name="special-instructions"></textarea>
+      
+          <button type="submit">Place Order</button>
+        </form>
+      
+        <div id="order-output"></div>
+      </div>
+      
+
+
+    </body>
+    <footer>
+        <p>@2023 | Tyler Willes | Last modified: <span id="last-modified"></span></p>
+      </footer>
+      
+    </html>

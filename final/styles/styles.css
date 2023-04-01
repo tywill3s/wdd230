@@ -1,0 +1,273 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*NAV*/
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+/* Style the links in the navigation menu */
+nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+/* Add hover effect to the links in the navigation menu */
+nav a:hover {
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+/*BANNER*/
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background-color: rgb(255, 190, 190);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.banner a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.banner a:hover {
+  color: red;
+}
+
+/*LOGO*/ 
+#logo {
+  text-align: center;
+}
+
+/*COUSTAL INFO*/
+.coastal-area {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.coastal-area img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.coastal-area h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.coastal-area p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.coastal-area ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.coastal-area li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+
+/*WEATHER CARD*/
+.weather-card {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.current-weather {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.humidity {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.day h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.day p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+
+/*INFO CARD*/
+.info-card {
+  text-align: center;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#last-modified {
+  font-weight: bold;
+}
+
+/*HERO*/
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/fruits.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/*FRESH*/
+.form-container {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#order-output {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+
+/*ABOUTUS*/
+/* Global styles */
+
+/* Map styles */
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#location {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+#history {
+  text-align: center;
+}
+
+#freshTitle {
+  text-align: center;
+}
