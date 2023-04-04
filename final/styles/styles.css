@@ -271,3 +271,7 @@ button:hover {
 #freshTitle {
   text-align: center;
 }
+
+#title {
+  text-shadow: 2px 2px 20px #606060;
+}
