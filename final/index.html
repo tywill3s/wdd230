@@ -48,7 +48,7 @@
         </div>
         <h2>Three-Day Forecast</h2>
         <div class="forecast">
-          <div class="day"></div>
+          <div class="day"><h3></h3><span class="high"></span><span class="low"></span></div>
           <div class="day"></div>
           <div class="day"></div>
         </div>
@@ -57,15 +57,15 @@
 
       <div class="info-card">
         <h2>Your Specialty Drinks</h2>
-        <p>You have submitted <span id="drink-count"></span> specialty drinks.</p>
+        <div id="drink-count"></div>
       </div>
 
-
-      <script src="scripts/scripts.js"></script>
-
-    </body>
     <footer>
-        <p>@2023 | Tyler Willes | Last modified: <span id="last-modified"></span></p>
+      <div>@<span id="year-field"></span> | FINAL WEBSITE | <strong>Tyler Willes</strong> | Last Updated: <span id="last-update-field"></span></div>
       </footer>
-      
+      <script src="scripts/weather.js"></script>
+      <script src="scripts/last-update.js"></script>
+      <script src="scripts/drink-count.js"></script>
+
+    </body> 
     </html>

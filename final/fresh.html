@@ -22,7 +22,7 @@
     <div class="form-container">
         <form id="order-form">
           <label for="first-name">First Name:</label>
-          <input type="text" id="first-name" name="first-name" required>
+          <input type="text" id="first-name" name="firstName" required>
       
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required>
@@ -31,15 +31,15 @@
           <input type="tel" id="phone" name="phone" required>
       
           <label for="fruit-1">Fruit 1:</label>
-          <select id="fruit-1" name="fruit-1" required>
+          <select id="fruit-select" name="fruit1" required>
           </select>
       
           <label for="fruit-2">Fruit 2:</label>
-          <select id="fruit-2" name="fruit-2" required>
+          <select id="fruit-select2" name="fruit2" required>
           </select>
       
           <label for="fruit-3">Fruit 3:</label>
-          <select id="fruit-3" name="fruit-3" required>
+          <select id="fruit-select3" name="fruit3" required>
           </select>
       
           <label for="special-instructions">Special Instructions:</label>
@@ -49,13 +49,16 @@
         </form>
       
         <div id="order-output"></div>
+        <div id="div1"></div>
+        <br>
+        <div class="drink-count"></div>
+
       </div>
-      
-
-
-    </body>
+    
     <footer>
-        <p>@2023 | Tyler Willes | Last modified: <span id="last-modified"></span></p>
+      <div>@<span id="year-field"></span> | FINAL WEBSITE | <strong>Tyler Willes</strong> | Last Updated: <span id="last-update-field"></span></div>
       </footer>
-      
+      <script src="scripts/last-update.js"></script>
+      <script src="scripts/drink.js"></script>  
+    </body>
     </html>

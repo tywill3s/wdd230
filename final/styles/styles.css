@@ -247,9 +247,6 @@ button:hover {
 }
 
 
-/*ABOUTUS*/
-/* Global styles */
-
 /* Map styles */
 #map {
   height: 400px;
@@ -274,4 +271,17 @@ button:hover {
 
 #title {
   text-shadow: 2px 2px 20px #606060;
+}
+
+#div1 h2{
+  text-align: center;
+}
+
+#div1 p{
+  text-align: left;
+  padding-left: 200px;
+}
+
+.drink-count {
+  text-align: center;
 }
