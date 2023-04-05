@@ -6,4 +6,4 @@ if (localStorage.getItem('numSpecialtyDrinks')) {
     numSpecialtyDrinks = parseInt(localStorage.getItem('numSpecialtyDrinks'));
   }
 
-infoCard.textContent = 'You have submitted ' + numSpecialtyDrinks + ' specialty drink(s).';
+infoCard.textContent = numSpecialtyDrinks;

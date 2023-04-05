@@ -1,3 +1,4 @@
+
 // Find the select element in your HTML code
 
 const url = './json/drinks.json';
@@ -60,6 +61,7 @@ form.addEventListener('submit', e => {
   const fruit1 = form.elements.fruit1.value;
   const fruit2 = form.elements.fruit2.value;
   const fruit3 = form.elements.fruit3.value;
+  const specialInstructions = form.elements.specialInstructions.value;
 
   const order = {
     firstName: firstName,
@@ -68,29 +70,34 @@ form.addEventListener('submit', e => {
     fruit1: fruit1,
     fruit2: fruit2,
     fruit3: fruit3,
+    special: specialInstructions,
   };
 
   numSpecialtyDrinks++;
   localStorage.setItem('numSpecialtyDrinks', numSpecialtyDrinks);
+
+const currentDate = new Date();
+
 
 const newH = document.createElement("h2");
 newH.innerHTML = "Thank you for submitting this form!";
 
 const newP = document.createElement("p");
 newP.innerHTML = `
+Here is your order:<br><br>
 <strong>First Name</strong>: ${order.firstName}<br>
 <strong>Email</strong>: ${order.email}<br>
 <strong>Phone</strong>: ${order.phone}<br>
 <strong>Fruit 1</strong>: ${order.fruit1}<br>
 <strong>Fruit 2</strong>: ${order.fruit2}<br>
 <strong>Fruit 3</strong>: ${order.fruit3}<br>
+<strong>Special Instructions</strong>: ${order.special}<br><br>
+<strong>Order Date</strong>: ${currentDate};
 `;
 
 
 document.getElementById("div1").appendChild(newH);
 document.getElementById("div1").appendChild(newP);
-
-infoCard.textContent = 'You have submitted ' + numSpecialtyDrinks + ' specialty drink(s).';
 });
 
 

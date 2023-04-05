@@ -61,6 +61,7 @@ nav a:hover {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  grid-column: 1;
 }
 
 .coastal-area img {
@@ -99,6 +100,7 @@ nav a:hover {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  grid-column: 2;
 }
 
 .current-weather {
@@ -144,10 +146,6 @@ nav a:hover {
 }
 
 
-/*INFO CARD*/
-.info-card {
-  text-align: center;
-}
 
 /*FOOTER*/
 footer {
@@ -259,10 +257,19 @@ button:hover {
 
 #contact {
   text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 #history {
   text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+
+#location {
+  padding-bottom: 50px;
 }
 
 #freshTitle {
@@ -279,9 +286,37 @@ button:hover {
 
 #div1 p{
   text-align: left;
-  padding-left: 200px;
+  padding-left: 50px;
 }
 
-.drink-count {
+#drink-count {
   text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  font-size: 80px;
+}
+
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+.drinks{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  grid-column: 3;
+}
+
+
+.coastal-area img {
+  border-radius: 20px;
+}
+
+#counter {
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 20px;
 }
