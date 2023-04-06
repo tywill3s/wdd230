@@ -320,3 +320,40 @@ button:hover {
   padding: 20px;
   border-radius: 20px;
 }
+
+#day1 {
+  color: blue;
+}
+
+#day2 {
+  color: blue;
+}
+
+#day3 {
+  color: blue;
+}
+
+.forecast {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+
+#weather1 {
+  background-color: rgb(176, 247, 247);
+  border-radius: 10px;
+}
+
+#weather2 {
+  background-color: rgb(176, 247, 247);  
+  border-radius: 10px;
+
+}
+
+#weather3 {
+  background-color: rgb(176, 247, 247);
+    border-radius: 10px;
+
+}
