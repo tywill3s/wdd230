@@ -169,12 +169,15 @@ footer {
 }
 
 .hero-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .hero-content h1 {
@@ -185,8 +188,8 @@ footer {
 .hero-button {
   padding: 1rem 2rem;
   border: none;
-  background-color: white;
-  color: black;
+  background-color: rgb(94, 94, 94);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
@@ -276,9 +279,6 @@ button:hover {
   text-align: center;
 }
 
-#title {
-  text-shadow: 2px 2px 20px #606060;
-}
 
 #div1 h2{
   text-align: center;
