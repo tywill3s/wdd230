@@ -79,6 +79,37 @@ form.addEventListener('submit', e => {
 const currentDate = new Date();
 
 
+fetch(url)
+.then(response => response.json())
+.then(data => {
+    const fruits = data;
+    const fruitList = [
+            fruit1,
+            fruit2,
+            fruit3
+        ]
+
+    const nutritionInfo = {
+        carbs:0,
+        protein:0,
+        fat:0,
+        sugar:0,
+        calories:0
+
+    }
+
+        fruitList.forEach(fruit => {
+            const foundFruit = fruits.find(obj => obj.name === fruit);
+            nutritionInfo.carbs += foundFruit.nutritions.carbohydrates;
+            nutritionInfo.protein += foundFruit.nutritions.protein;
+            nutritionInfo.fat += foundFruit.nutritions.fat;
+            nutritionInfo.sugar += foundFruit.nutritions.sugar;
+            nutritionInfo.calories += foundFruit.nutritions.calories;
+        }
+        );
+
+
+
 const newH = document.createElement("h2");
 newH.innerHTML = "Thank you for submitting this form!";
 
@@ -91,13 +122,17 @@ Here is your order:<br><br>
 <strong>Fruit 1</strong>: ${order.fruit1}<br>
 <strong>Fruit 2</strong>: ${order.fruit2}<br>
 <strong>Fruit 3</strong>: ${order.fruit3}<br>
-<strong>Special Instructions</strong>: ${order.special}<br><br>
-<strong>Order Date</strong>: ${currentDate};
-`;
-
+<strong>Special Instructions</strong>: ${order.special}<br>
+<strong>Nutrition Info:</strong><br> 
+<ul><li>Carbs: ${Math.round(nutritionInfo.carbs)}</li><br>
+<li>Protein: ${Math.round(nutritionInfo.protein)}</li><br>
+<li>Fat: ${Math.round(nutritionInfo.fat)}</li><br>
+<li>Sugar: ${Math.round(nutritionInfo.sugar)}</li><br>
+<li>Calories: ${Math.round(nutritionInfo.calories)}</li><br><br>
+<strong>Order Date</strong>: ${currentDate}
+</ul>`;
 
 document.getElementById("div1").appendChild(newH);
 document.getElementById("div1").appendChild(newP);
 });
-
-
+});
